@@ -1,0 +1,5 @@
+After we installed MySQL-community-server 5.7 from fresh on linux, we have to find the temporary password from 
+/var/log/mysqld.log to login as root.
+
+grep 'temporary password' /var/log/mysqld.log
+Run mysql_secure_installation to change new password
